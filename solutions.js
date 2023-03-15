@@ -21,3 +21,62 @@
  * concat
  */
 
+function isTrue(x){
+    if (x === true){
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function isFalse(x){
+    if (x == false){
+        return true;
+    }else {
+        return false;
+    }
+}
+function not(x){
+    return !x
+}
+
+function addOne(x){
+    return Number(x) + 1
+}
+
+function isEven(x){
+    if (parseInt(x) % 2 == 0) {
+        return true;
+    }else {
+        return false;
+    }
+}
+console.log(isEven())
+
+function isIdentical(x, y){
+    if (x === y) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function isEqual(x, y){
+    if (x == y) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function or(x, y) {
+    return (x || y)
+}
+
+function and(x, y) {
+    return (x && y)
+}
+
+function concat(x, y){
+    return String(x) + String(y);
+}
